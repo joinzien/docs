@@ -54,7 +54,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'hello',
+            docId: 'intro',
             position: 'left',
             label: 'Expanded NFTs',
           },
@@ -68,7 +68,7 @@ const config = {
             items: [
               {
                 label: 'Expanded NFTs',
-                to: '/docs/hello',
+                to: '/docs/intro',
               },
             ],
           },
