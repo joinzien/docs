@@ -91,5 +91,6 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 
-# docusaurus temo files
+# docusaurus temp files
 .docusaurus
+build
