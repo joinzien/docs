@@ -1,7 +1,7 @@
 # Expanded NFTs
 
 ### Intro
-[Expanded NFTs](https://github.com/joinzien/expanded-nft) are Non-Fungible Tokens (ERC-721) introduced by Zien that can be redeemed on-chain for unique physical counterparts. A format for art between off-chain and on-chain that enables:
+[Expanded NFTs](https://github.com/joinzien/expanded-nft) are Non-Fungible Tokens ([ERC-721](http://erc721.org/)) introduced by Zien that can be redeemed on-chain for unique physical counterparts. A format for art between off-chain and on-chain that enables:
 * Hybrid digital / material artworks
 * A new way for artists to produce and distribute physical art
 * A new way for people to collect physical art
