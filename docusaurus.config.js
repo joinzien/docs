@@ -56,14 +56,6 @@ const config = {
           alt: 'Zien logo',
           src: 'img/zien-logo.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: ' ',
-          },
-        ],
       },
       footer: {
         style: 'light',
