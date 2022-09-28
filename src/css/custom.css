@@ -61,7 +61,7 @@ article .hash-link:hover {
 }
 
 aside .menu__link--active {
-  color: var(--custom-primary) !important;
+  color: var(--custom-content-color) !important;
 }
 
 aside a:hover {
