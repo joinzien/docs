@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/zien-logo.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -52,12 +52,16 @@ const config = {
       },
       navbar: {
         title: '',
+        logo: {
+          alt: 'Zien logo',
+          src: 'img/zien-logo.svg',
+        },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Expanded NFTs',
+            label: ' ',
           },
         ],
       },
