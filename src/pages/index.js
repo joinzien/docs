@@ -2,7 +2,9 @@ import React from 'react';
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Home() {
-   window.location.href = useBaseUrl('/intro')
+   React.useEffect(() => {
+      window.location.href = useBaseUrl('/intro');
+   }, []);
 
    return null
 }
