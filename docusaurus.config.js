@@ -53,7 +53,6 @@ const config = {
       navbar: {
         title: 'Expanded NFTs',
         logo: {
-          style: "dark",
           alt: 'Zien logo',
           src: 'img/zien-logo.svg',
         },
