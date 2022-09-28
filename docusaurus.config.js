@@ -29,11 +29,13 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          breadcrumbs:false,
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,30 +47,24 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+      },
       navbar: {
-        title: 'Docs',
         logo: {
           alt: 'Zien logo',
-          src: 'img/logo.svg',
+          src: 'img/zien-logo.svg',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Expanded NFTs',
-          },
-        ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
               {
                 label: 'Expanded NFTs',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },

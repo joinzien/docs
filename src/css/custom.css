@@ -13,8 +13,68 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  --custom-primary: #25D366;
+  --custom-content-color: #1f1f1f;
+  --custom-content-color-emphasis: #000;
+  --custom-background-color: #fdfdfd;
+  --logo-backgound-filter: 0;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+article a {
+  box-shadow: var(--custom-primary) 0 -3px 0 -1px inset;
+  color: var(--custom-content-color);
+  padding-bottom: 2px;
+  transition: box-shadow .1s ease-in-out;
+}
+
+nav img {
+  filter: invert(var(--logo-backgound-filter));
+}
+
+article a:hover {
+  box-shadow: inset 0 -30px 0 -1px var(--custom-primary);
+  text-decoration: none;
+  color: var(--custom-background-color);
+}
+
+article .hash-link {
+  box-shadow: none !important;
+  color: var(--custom-content-color);
+}
+
+article .hash-link:hover {
+  color: var(--custom-primary) !important;
+}
+
+.table-of-contents__left-border a:hover {
+  color: var(--custom-primary);
+}
+
+.table-of-contents__link--active {
+  color: var(--custom-primary);
+}
+
+aside .menu__link--active {
+  color: var(--custom-content-color) !important;
+}
+
+aside a:hover {
+  color: var(--custom-content-color-emphasis);
+}
+
+footer a:hover {
+  color: var(--custom-primary) !important;
+  text-decoration: none;
+}
+
+nav .navbar__title {
+  color: var(--custom-primary) !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -26,5 +86,7 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --custom-content-color: #DDD;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --logo-backgound-filter: 1;
 }

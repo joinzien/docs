@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # Expanded NFTs
 
 ### Intro
