@@ -29,13 +29,13 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           breadcrumbs:false,
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath:'/'
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +69,7 @@ const config = {
             items: [
               {
                 label: 'Expanded NFTs',
-                to: '/intro',
+                to: '/',
               },
             ],
           },
