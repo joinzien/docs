@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/zien-logo.ico',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -51,8 +51,9 @@ const config = {
         defaultMode: 'light',
       },
       navbar: {
-        title: '',
+        title: 'Expanded NFTs',
         logo: {
+          style: "dark",
           alt: 'Zien logo',
           src: 'img/zien-logo.svg',
         },
