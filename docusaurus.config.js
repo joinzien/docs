@@ -50,6 +50,7 @@ const config = {
       colorMode: {
         defaultMode: 'light',
       },
+      image: 'img/zien-logo.png',
       navbar: {
         logo: {
           alt: 'Zien logo',
